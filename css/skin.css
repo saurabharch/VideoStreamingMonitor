@@ -1,0 +1,334 @@
+﻿@charset "utf-8";
+/*menu*/
+.logo img {float: left; padding-top: 5px;}
+.top-bar {background: rgb(46, 50, 58) none repeat scroll 0 0;padding: 4px;}
+.stream-btn a {}
+.stream-btn a button {background: #4f4f4f;color: #fff;padding: 9px 15px; float: right;
+						border-radius: 4px; border: none;margin-top: 10px;}
+/*video-conatiner*/
+.video-conatiner {margin-top: 20px;}
+.full-width {}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 40px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*form*/
+.poster-upload input {  background-color: #dff0d8;
+					    border: medium none;
+					    color: hsl(137, 50%, 34%);
+					    padding: 2px;}
+.modal-header {border: none;}
+
+
+
+
+.randome-on {margin-top: 30px;}
+
+
+/*footer*/
+
+.footer {background: rgb(46,50,58);margin-bottom: 2px;padding: 10px;}
+.footer p { color: #fff;
+		    font-size: 16px;
+		    font-weight: bold;
+		    margin-top: 20px;}
+
+
+
+
+/*Componets*/
+/* Search icon by IcoMoon, made with http://icomoon.io/app/ */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.sb-search {
+	position: relative;
+	margin-top: 10px;
+	width: 0%;
+	min-width: 50px;
+	height: 50px;
+	float: right;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+	-webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+	border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    position: absolute;
+	top: 28px;
+	right: 46px;
+	outline: none;
+	background: #fff;
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	z-index: 10;
+	padding: 10px 65px 10px 20px;
+	font-family: inherit;
+	font-size: 20px;
+	color: #2c3e50;
+}
+
+input[type="search"].sb-search-input {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+}
+
+.sb-search-input::-webkit-input-placeholder {
+	color: rgb(46,50,58);
+}
+
+.sb-search-input:-moz-placeholder {
+	color: rgb(46,50,58);
+}
+
+.sb-search-input::-moz-placeholder {
+	color: rgb(46,50,58);
+}
+
+.sb-search-input:-ms-input-placeholder {
+	color: rgb(46,50,58);
+}
+
+.sb-icon-search,
+.sb-search-submit  {
+	width: 122px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0 0 0 134px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.sb-icon-search {
+	color: #fff;
+	background: #4f4f4f;
+	z-index: 90;
+	font-size: 22px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sb-icon-search:before {
+	background: url(images/icon/search.png);
+}
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 100%;
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	background: #4f4f4f;
+	color: #fff;
+	z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+
+
+/*Default*/		    
+
+/* General Demo Style */
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+
+/* Header Style */
+
+/* Main Content */
+.main {
+	max-width: 69em;
+}
+
+.column {
+	width: 55%;
+float: right;
+	padding: 0 2em 10px;
+	position: relative;
+    margin-top: 0px;
+    top: -41px;
+    left: -18px;
+}
+
+.column:nth-child(2) {
+	box-shadow: -1px 0 0 rgba(0,0,0,0.1);
+}
+
+.column p {
+	font-weight: 300;
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	line-height: 1.5;
+}
+
+.column a {
+	border: 3px solid #b4c7da;
+	padding: 0 15px;
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.column a:hover {
+	border-color: #fff;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	background: #566472;
+	background: rgba(255, 255, 255, 0.2);
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	padding: 0 1em;
+	letter-spacing: 0.1em;
+	color: #fff;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.8);
+	color: #2c3e50;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+.codrops-icon:before {
+	font-family: 'codropsicons';
+	margin: 0 4px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+@media screen and (max-width: 46.0625em) {
+	.column {
+		width: 100%;
+		min-width: auto;
+		min-height: auto;
+		padding: 1em; 
+	}
+
+	.column p {
+		text-align: left;
+		font-size: 1.5em;
+	}
+
+	.column:nth-child(2) {
+		box-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+	}
+}
+.flowplayer {
+  background-color: #00abcd;
+}
+.flowplayer .fp-color-play {
+  fill: #eee;
+}
+@media screen and (max-width: 25em) {
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}
+.myClass
+{
+  width:100px;
+  height:100px;
+}
+
+
+.video-conatiner {}
+.video-conatiner object {}
+.video-box object embed {width: 100% !important;}
+

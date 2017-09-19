@@ -1,0 +1,35 @@
+C:\Users\Administrator\Desktop\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll.config
+C:\Users\Administrator\Desktop\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll
+C:\Users\Administrator\Desktop\VideoLibrary\VideoLibrary\bin\VideoLibrary.pdb
+C:\Users\Administrator\Desktop\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.dll
+C:\Users\Administrator\Desktop\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.pdb
+C:\Users\AT systems\documents\visual studio 2013\Projects\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll.config
+C:\Users\AT systems\documents\visual studio 2013\Projects\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll
+C:\Users\AT systems\documents\visual studio 2013\Projects\VideoLibrary\VideoLibrary\bin\VideoLibrary.pdb
+C:\Users\AT systems\documents\visual studio 2013\Projects\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.csprojResolveAssemblyReference.cache
+C:\Users\AT systems\documents\visual studio 2013\Projects\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.dll
+C:\Users\AT systems\documents\visual studio 2013\Projects\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.pdb
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\bin\VideoLibrary.pdb
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\bin\mscorlib.dll
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\bin\normidna.nlp
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\bin\normnfc.nlp
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\bin\normnfd.nlp
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\bin\normnfkc.nlp
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\bin\normnfkd.nlp
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.dll
+C:\Users\Khapekar\Desktop\ssss\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.pdb
+C:\Users\AT systems\Desktop\ssss\ssss\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll.config
+C:\Users\AT systems\Desktop\ssss\ssss\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll
+C:\Users\AT systems\Desktop\ssss\ssss\VideoLibrary\VideoLibrary\bin\VideoLibrary.pdb
+C:\Users\AT systems\Desktop\ssss\ssss\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.csprojResolveAssemblyReference.cache
+C:\Users\AT systems\Desktop\ssss\ssss\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.dll
+C:\Users\AT systems\Desktop\ssss\ssss\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.pdb
+E:\Video Streaming Monitor\ssss\ssss\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll.config
+E:\Video Streaming Monitor\ssss\ssss\VideoLibrary\VideoLibrary\bin\VideoLibrary.dll
+E:\Video Streaming Monitor\ssss\ssss\VideoLibrary\VideoLibrary\bin\VideoLibrary.pdb
+E:\Video Streaming Monitor\ssss\ssss\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.csprojResolveAssemblyReference.cache
+E:\Video Streaming Monitor\ssss\ssss\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.dll
+E:\Video Streaming Monitor\ssss\ssss\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.pdb

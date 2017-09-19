@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F0F9558A-DDC8-4FA4-83F1-ABCFE26ED9E8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VideoLibrary</RootNamespace>
+    <AssemblyName>VideoLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <IncludeIisSettings>false</IncludeIisSettings>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\skin.css" />
+    <Content Include="css\skin\icons\flowplayer.svg" />
+    <Content Include="css\skin\skin.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\icon\search.ico" />
+    <Content Include="images\logo\loding1.gif" />
+    <Content Include="images\logo\loding2.gif" />
+    <Content Include="images\logo\loding3.gif" />
+    <Content Include="images\logo\promax.png" />
+    <Content Include="index.aspx" />
+    <Content Include="index.html" />
+    <Content Include="index1.aspx" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\classie.js" />
+    <Content Include="js\flowplayer-3.2.12.min.js" />
+    <Content Include="js\flowplayer-3.2.16.swf" />
+    <Content Include="js\flowplayer.controls-3.2.15.swf" />
+    <Content Include="js\flowplayer.js" />
+    <Content Include="js\flowplayer.min.js" />
+    <Content Include="js\flowplayer.pseudostreaming-3.2.12.swf" />
+    <Content Include="js\flowplayer.swf" />
+    <Content Include="js\flowplayerhls.swf" />
+    <Content Include="js\jquery-3.2.1.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="js\uisearch.js" />
+    <Content Include="jwplayer\jwplayer.flash.swf" />
+    <Content Include="jwplayer\jwplayer.js" />
+    <Content Include="jwplayer\jwplayer.loader.swf" />
+    <Content Include="jwplayer\polyfills.base64.js" />
+    <Content Include="jwplayer\polyfills.intersection-observer.js" />
+    <Content Include="jwplayer\polyfills.promise.js" />
+    <Content Include="jwplayer\polyfills.vttrenderer.js" />
+    <Content Include="jwplayer\provider.airplay.js" />
+    <Content Include="jwplayer\provider.cast.js" />
+    <Content Include="jwplayer\provider.flash.js" />
+    <Content Include="jwplayer\provider.hlsjs.js" />
+    <Content Include="jwplayer\provider.html5.js" />
+    <Content Include="jwplayer\provider.shaka.js" />
+    <Content Include="jwplayer\provider.youtube.js" />
+    <Content Include="jwplayer\skins\beelden.css" />
+    <Content Include="jwplayer\skins\bekle.css" />
+    <Content Include="jwplayer\skins\five.css" />
+    <Content Include="jwplayer\skins\glow.css" />
+    <Content Include="jwplayer\skins\roundster.css" />
+    <Content Include="jwplayer\skins\seven.css" />
+    <Content Include="jwplayer\skins\six.css" />
+    <Content Include="jwplayer\skins\stormtrooper.css" />
+    <Content Include="jwplayer\skins\vapor.css" />
+    <Content Include="jwplayer\vttparser.js" />
+    <Content Include="live_page.aspx" />
+    <Content Include="StreamPage.html" />
+    <Content Include="video\Ellie-Goulding.mp4" />
+    <Content Include="Video_Stream.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index1.aspx.cs">
+      <DependentUpon>index1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index1.aspx.designer.cs">
+      <DependentUpon>index1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="live_page.aspx.cs">
+      <DependentUpon>live_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="live_page.aspx.designer.cs">
+      <DependentUpon>live_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\SQLBal\SQlbal.cs" />
+    <Compile Include="Logic\SQLConnect\DBHelper.cs" />
+    <Compile Include="PromaxLive.Master.cs">
+      <DependentUpon>PromaxLive.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PromaxLive.Master.designer.cs">
+      <DependentUpon>PromaxLive.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Video_Stream.aspx.cs">
+      <DependentUpon>Video_Stream.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Video_Stream.aspx.designer.cs">
+      <DependentUpon>Video_Stream.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\skin\icons\flowplayer.eot" />
+    <Content Include="css\skin\icons\flowplayer.ttf" />
+    <Content Include="css\skin\icons\flowplayer.woff" />
+    <Content Include="css\skin\icons\flowplayer.woff2" />
+    <Content Include="jwplayer\jw-icons.ttf" />
+    <Content Include="jwplayer\jw-icons.woff" />
+    <Content Include="hds_sample1_manifest.f4m" />
+    <Content Include="rtmp_sample1_manifest.f4m" />
+    <Content Include="PromaxLive.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fonts\" />
+    <Folder Include="images\background\" />
+    <Folder Include="images\banner\" />
+    <Folder Include="Logic\VideoPoster\" />
+    <Folder Include="Logic\Video_Data\" />
+    <Folder Include="Logic\WebPage\" />
+    <Folder Include="scripts\" />
+    <Folder Include="swfs\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
